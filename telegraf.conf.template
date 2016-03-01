@@ -76,7 +76,7 @@
   # Address and port to host UDP listener on
   service_address = ":8125"
   # Delete gauges every interval (default=false)
-  delete_gauges = false
+  delete_gauges = true
   # Delete counters every interval (default=false)
   delete_counters = false
   # Delete sets every interval (default=false)
